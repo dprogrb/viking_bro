@@ -5,8 +5,8 @@ main_collection = /main/main.collectionc
 shared_state = 1
 
 [display]
-width = 1600
-height = 900
+width = 1280
+height = 720
 high_dpi = 1
 
 [android]
@@ -17,4 +17,7 @@ scale_mode = stretch
 
 [project]
 title = Viking
+
+[graphics]
+default_texture_mag_filter = nearest
 

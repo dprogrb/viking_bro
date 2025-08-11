@@ -1,7 +1,8 @@
+script: "/menu/menu.gui_script"
 nodes {
   position {
-    x: 792.0
-    y: 435.0
+    x: 618.0
+    y: 332.0
   }
   scale {
     x: 3.0

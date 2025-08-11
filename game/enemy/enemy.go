@@ -1,11 +1,11 @@
 components {
-  id: "player"
-  component: "/game/player/player.script"
+  id: "enemy"
+  component: "/game/enemy/enemy.script"
 }
 embedded_components {
   id: "sprite"
   type: "sprite"
-  data: "default_animation: \"green_black\"\n"
+  data: "default_animation: \"red\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "textures {\n"
   "  sampler: \"texture_sampler\"\n"

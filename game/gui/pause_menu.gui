@@ -1,0 +1,68 @@
+script: "/game/gui/pause_menu.gui_script"
+nodes {
+  type: TYPE_TEMPLATE
+  id: "button"
+  inherit_alpha: true
+  template: "/menu/button.gui"
+}
+nodes {
+  position {
+    x: 616.0
+    y: 364.0
+  }
+  scale {
+    x: 2.80451
+    y: 2.271174
+  }
+  type: TYPE_BOX
+  id: "button/box"
+  parent: "button"
+  overridden_fields: 1
+  overridden_fields: 3
+  overridden_fields: 46
+  template_node_child: true
+}
+nodes {
+  type: TYPE_TEXT
+  text: "PAUSE\n"
+  ""
+  id: "button/text"
+  parent: "button/box"
+  overridden_fields: 8
+  overridden_fields: 46
+  template_node_child: true
+}
+nodes {
+  type: TYPE_TEMPLATE
+  id: "back_main_menu"
+  inherit_alpha: true
+  template: "/menu/button.gui"
+}
+nodes {
+  position {
+    x: 79.0
+    y: 648.0
+  }
+  scale {
+    x: 2.0
+    y: 2.0
+  }
+  type: TYPE_BOX
+  id: "back_main_menu/box"
+  parent: "back_main_menu"
+  overridden_fields: 1
+  overridden_fields: 3
+  template_node_child: true
+}
+nodes {
+  type: TYPE_TEXT
+  text: "Menu\n"
+  "\n"
+  ""
+  id: "back_main_menu/text"
+  parent: "back_main_menu/box"
+  overridden_fields: 8
+  template_node_child: true
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT
